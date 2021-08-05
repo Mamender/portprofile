@@ -1,0 +1,13 @@
+$danger : red;
+
+.Header nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+.Header nav ul li{
+list-style-type: none;
+}
+
+.activeM a{
+  color: $danger;
+}
